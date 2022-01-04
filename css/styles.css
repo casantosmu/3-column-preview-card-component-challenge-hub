@@ -14,6 +14,12 @@
   --ff-body-font: 'Lexend Deca', sans-serif;
   --ff-title-font: 'Big Shoulders Display', cursive;
   --ff-normal-size: 15px;
+
+  /* ===== GAPS ===== */
+  --gap-300: 1.5rem;
+  --gap-400: 2rem;
+  --gap-600: 2.5rem;
+  --gap-700: 3rem;
 }
 
 /* ===== BASE ===== */
@@ -32,6 +38,10 @@ body {
   color: var(--cc-paragraphs);
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
+
+  /* TEST */
+  max-width: 375px;
+  margin: auto;
 }
 
 img {
@@ -46,10 +56,9 @@ button {
 
 /* ===== REUSABLE CSS CLASSES */
 .container {
-  margin: 5rem 2rem;
+  margin: 5rem 1.5rem;
 }
 
 .btn {
   background-color: var(--cc-light);
 }
-
