@@ -62,3 +62,55 @@ button {
 .btn {
   background-color: var(--cc-light);
 }
+
+
+/* ===== CARDS ===== */
+/* Typography */
+.card__heading {
+  color: var(--cc-light);
+  font-family: var(--ff-title-font);
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.card__paragraph {
+  line-height: 1.75;
+}
+
+/* Styles */
+.card__container > :first-child {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.card__container > :last-child {
+  border-radius: 0 0 1rem 1rem;
+}
+
+.card {
+  padding: var(--gap-700);
+}
+
+.card--orange {
+  background-color: var(--cc-bright-orange);
+}
+
+.card--blue {
+  background-color: var(--cc-dark-cyan);
+}
+
+.card--green {
+  background-color: var(--cc-very-dark-cyan);
+}
+
+.card__img {
+  margin-bottom: var(--gap-400);
+}
+
+.card__heading {
+  margin-bottom: var(--gap-400);
+}
+
+.card__paragraph {
+  margin-bottom: var(--gap-300);
+}
