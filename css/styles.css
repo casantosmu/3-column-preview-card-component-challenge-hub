@@ -21,6 +21,8 @@
   --gap-400: 2rem;
   --gap-600: 2.5rem;
   --gap-700: 3rem;
+  --gap-800: 3.5rem;
+  --gap-900: 5rem;
 }
 
 /* ===== BASE ===== */
@@ -149,5 +151,14 @@ button {
 
   .card__container > :last-child {
     border-radius: 0 1rem 1rem 0;
+  }
+  
+  .card {
+    margin: 0;
+    padding: var(--gap-800);
+  }
+
+  .card__paragraph {
+    margin-bottom: var(--gap-900);
   }
 }
