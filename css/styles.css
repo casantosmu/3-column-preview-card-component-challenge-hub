@@ -39,10 +39,6 @@ body {
   color: var(--cc-paragraphs);
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
-
-  /* TEST */
-  max-width: 375px;
-  margin: auto;
 }
 
 img {
@@ -104,6 +100,8 @@ button {
 }
 
 .card {
+  max-width: 320px;
+  margin: auto;
   padding: var(--gap-700);
 }
 
