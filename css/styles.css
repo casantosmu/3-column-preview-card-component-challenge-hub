@@ -91,15 +91,15 @@ button {
   padding: var(--gap-700);
 }
 
-.card--orange {
+.card--bright-orange {
   background-color: var(--cc-bright-orange);
 }
 
-.card--blue {
+.card--dark-cyan {
   background-color: var(--cc-dark-cyan);
 }
 
-.card--green {
+.card--very-dark-cyan {
   background-color: var(--cc-very-dark-cyan);
 }
 
