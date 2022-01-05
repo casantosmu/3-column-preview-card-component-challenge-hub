@@ -16,6 +16,7 @@
   --ff-normal-size: 15px;
 
   /* ===== GAPS ===== */
+  --gap-100: 1rem;
   --gap-300: 1.5rem;
   --gap-400: 2rem;
   --gap-600: 2.5rem;
@@ -60,7 +61,22 @@ button {
 }
 
 .btn {
+  padding: var(--gap-100) var(--gap-400);
+  border-radius: 40px;
+  border: none;
   background-color: var(--cc-light);
+}
+
+.btn--bright-orange {
+  color: var(--cc-bright-orange);
+}
+
+.btn--dark-cyan {
+  color: var(--cc-dark-cyan);
+}
+
+.btn--very-dark-cyan {
+  color: var(--cc-very-dark-cyan);
 }
 
 
