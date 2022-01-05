@@ -128,3 +128,26 @@ button {
 .card__paragraph {
   margin-bottom: var(--gap-300);
 }
+
+/* ===== MEDIA QUERIES ===== */
+/* For Desktop */
+@media (min-width: 1000px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  .card__container {
+    display: flex;
+  }
+
+  .card__container > :first-child {
+    border-radius: 1rem 0 0 1rem;
+  }
+
+  .card__container > :last-child {
+    border-radius: 0 1rem 1rem 0;
+  }
+}
